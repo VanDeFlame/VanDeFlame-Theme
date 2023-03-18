@@ -1,0 +1,42 @@
+{
+	"name": "vandeflame-theme",
+	"displayName": "VanDeFlame Theme",
+	"description": "Visual Studio Dark Theme",
+	"icon": "src/images/icon.jpg",
+	"version": "1.0.0",
+	"publisher": "VanDeFlame",
+	"engines": {
+		"vscode": "^1.64.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/VanDeFlame/VanDeFlame-Theme.git"
+	},
+	"keywords": [
+		"Theme",
+		"Dark Theme"
+	],
+	"categories": [
+		"Themes"
+	],
+	"scripts": {
+		"build": "vsce package -o ./dist/"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "VanDeFlame Theme",
+				"uiTheme": "vs-dark",
+				"path": "./src/themes/dark-color-theme.json"
+			},
+			{
+				"label": "VanDeFlame Theme (only code)",
+				"uiTheme": "vs-dark",
+				"path": "./src/themes/dark-no-workspace-color-theme.json"
+			}
+		]
+	},
+	"dependencies": {
+		"@vscode/vsce": "^2.18.0"
+	}
+}
