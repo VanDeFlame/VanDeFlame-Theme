@@ -3,7 +3,7 @@
 	"displayName": "VanDeFlame Theme",
 	"description": "Visual Studio Dark Theme",
 	"icon": "src/images/icon.jpg",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"publisher": "VanDeFlame",
 	"engines": {
 		"vscode": "^1.64.0"
